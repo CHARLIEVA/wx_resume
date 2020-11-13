@@ -1,0 +1,70 @@
+<view class="cu-bar bg-white solid-bottom">
+  <view class="action">
+    <text class="cuIcon-titles text-orange"></text> 教育经历
+  </view>
+</view>
+
+<view class="cu-timeline">
+  <view class="cu-item text-blue">
+    <view class="bg-gradual-blue content shadow">
+      <view class="text-df padding-bottom-xs">xx大学 本科在读</view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-blue">xxx专业</view>
+        <view class="cu-tag line-white">2018.9-至今</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view class="text-justify">职务：班长（2018年9月-至今）</view>
+      </view>
+    </view>   
+  </view>
+
+  <view class="cu-bar bg-white solid-bottom">
+  <view class="action">
+    <text class="cuIcon-titles text-orange"></text> 专业课程
+  </view>
+</view>
+<view class="cu-item text-blue">
+    <view class="bg-gradual-blue content shadow">
+      <view class="text-df padding-bottom-xs"></view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-blue">xxx专业</view>
+        <view class="cu-tag line-white">2018.9-至今</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view class="text-justify">C语言程序设计基础、面向对象的程序设计...
+        </view>
+      </view>
+    </view>   
+  </view>
+
+
+  <view class="cu-bar bg-white solid-bottom">
+  <view class="action">
+    <text class="cuIcon-titles text-orange"></text> 获奖情况
+  </view>
+</view>
+
+
+
+
+  <view class="cu-item text-blue">
+    <view class="bg-gradual-blue content shadow">
+      <view class="text-df padding-bottom-xs">20xx年xxxx项目</view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-blue">项目时间</view>
+        <view class="cu-tag line-white">2018.10-2019.10</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view class="text-df padding-bottom-xs">项目名称：</view>
+        <view class="text-justify">成果：</view>
+        <view class="text-justify">指导老师：</view>
+        <view class="text-justify">项目负责人：XXX</view>
+        <view class="text-justify">成员：</view>
+        <view class="text-justify">举办单位：</view>
+      </view>
+    </view>   
+  </view>
+
+
+ 
+</view>

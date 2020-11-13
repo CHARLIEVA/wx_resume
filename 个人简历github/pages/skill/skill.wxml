@@ -1,0 +1,79 @@
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-blue"></text>Premiere/Final Cut Pro
+  </view>
+</view>
+<view class="padding bg-white">
+  <view class="cu-progress radius striped active">
+    <view class="bg-red" style="width:{{loading?'100%':''}};">100%</view>
+    <!-- <view class="bg-olive" style="width:{{loading?'45%':''}};">45%</view>
+    <view class="bg-cyan" style="width:{{loading?'25%':''}};">25%</view> -->
+  </view>
+</view>
+
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-blue"></text>After Effects
+  </view>
+</view>
+<view class="padding bg-white">
+  <view class="cu-progress radius striped active">
+    <view class="bg-olive" style="width:{{loading?'60%':''}};">60%</view>
+  </view>
+</view>
+
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-blue"></text>Photoshop
+  </view>
+</view>
+<view class="padding bg-white">
+  <view class="cu-progress radius striped active">
+    <view class="bg-blue" style="width:{{loading?'80%':''}};">80%</view>
+  </view>
+</view>
+
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-blue"></text>摄影
+  </view>
+</view>
+<view class="padding bg-white">
+  <view class="cu-progress radius striped active">
+    <view class="bg-mauve" style="width:{{loading?'90%':''}};">90%</view>
+  </view>
+</view>
+
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-blue"></text>微信开发者工具
+  </view>
+</view>
+<view class="padding bg-white">
+  <view class="cu-progress radius striped active">
+    <view class="bg-orange" style="width:{{loading?'80%':''}};">80%</view>
+  </view>
+</view>
+
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-blue"></text>机器学习/tensorflow
+  </view>
+</view>
+<view class="padding bg-white">
+  <view class="cu-progress radius striped active">
+    <view class="bg-cyan" style="width:{{loading?'30%':''}};">30%</view>
+  </view>
+</view>
+
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-blue"></text>CCSv5 MSP430
+  </view>
+</view>
+<view class="padding bg-white">
+  <view class="cu-progress radius striped active">
+    <view class="bg-brown" style="width:{{loading?'25%':''}};">25%</view>
+
+  </view>
+</view>

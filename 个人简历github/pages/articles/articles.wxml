@@ -1,0 +1,26 @@
+
+<view class="cu-bar bg-white margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text> 关于摄影与色彩
+  </view>
+</view>
+<swiper class="card-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#0081ff">
+  <swiper-item wx:for="{{swiperList}}" wx:key class="{{cardCur==index?'cur':''}}">
+    <view class="swiper-item">
+      <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+      <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+    </view>
+  </swiper-item>
+</swiper>
+
+<view class="cu-bar bg-white">
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text> 其他敬请期待更新...
+  </view>
+</view>
+<!-- 
+<swiper class="screen-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
+  <swiper-item>
+    <video url="cloud://cloud-1j8z4.636c-cloud-1j8z4-1303914026/个人简历的摄影作品/IMG_6776.MOV	" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}">cloud://cloud-1j8z4.636c-cloud-1j8z4-1303914026/个人简历的摄影作品/IMG_6776.MOV	</video>
+  </swiper-item>
+</swiper> -->

@@ -1,0 +1,57 @@
+<scroll-view scroll-y class="scrollPage">
+  <view class="UCenter-bg">
+    <!-- <image src="/images/logo.png" class="png" mode="widthFix"></image> -->
+    <view class="text-xl">一起交流学习吧
+      <text class="text-df"></text>
+    </view>
+    <view class="margin-top-sm">
+      <text>By:CHARLIEVA</text>
+    </view>
+  </view>
+  <view class="padding flex text-center text-grey bg-white shadow-warp">
+    <view class="flex flex-sub flex-direction solid-right">
+      <view class="text-xxl text-orange">{{visitTotal}}</view>
+      <view class="margin-top-sm">
+        <text class="cuIcon-attentionfill"></text> View</view>
+    </view>
+    <view class="flex flex-sub flex-direction solid-right">
+      <view class="text-xxl text-blue">{{starCount}}</view>
+      <view class="margin-top-sm">
+        <text class="cuIcon-favorfill"></text> Star</view>
+    </view>
+    <view class="flex flex-sub flex-direction">
+      <view class="text-xxl text-green">{{forksCount}}</view>
+      <view class="margin-top-sm">
+        <text class="cuIcon-fork"></text> Fork</view>
+    </view>
+  </view>
+
+  <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+    <view class="cu-item arrow">
+      <view class="content" bindtap="CopyLink" data-link="https://github.com/CHARLIEVA">
+        <text class="cuIcon-github text-grey"></text>
+        <text class="text-grey">GitHub</text>
+      </view>
+    </view>
+    <view class="cu-item arrow">
+      <view class="content" bindtap="CopyLink" data-link="https://charlieva.blog.csdn.net">
+        <text class="cuIcon-likefill text-red"></text>
+        <text class="text-grey">CSDN</text>
+      </view>
+    </view>
+    <view class="cu-item arrow">
+      <navigator class="content" url="/pages/articles/articles" hover-class="none">
+        <text class="cuIcon-formfill text-orange"></text>
+        <text class="text-grey">作品展示</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow">
+      <view class="content" bindtap="showQrcode">
+        <text class="cuIcon-weixin text-green"></text>
+        <text class="text-grey">加我微信</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="cu-tabbar-height"></view>
+</scroll-view>

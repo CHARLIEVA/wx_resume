@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/welcome/welcome",
+    "pages/about/about",
+    "pages/index/index",
+    "pages/skill/skill",
+    "pages/blog/blog",
+    "pages/articles/articles",
+    "pages/article/article"
+  ],
+  "window":{
+    "backgroundTextStyle": "light", 
+    "navigationBarBackgroundColor": "#0081ff", 
+    "navigationBarTitleText": "个人简历", 
+    "navigationBarTextStyle": "white" 
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "navigationStyle":"default",
+  "tabBar": {
+    "selectedColor": "#0081ff", 
+    "list": [ 
+      {
+        "pagePath": "pages/about/about", 
+        "selectedIconPath": "images/卡片.png",
+        "iconPath": "images/卡片.png",
+        "text": "我的卡片"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "images/列表.png",
+        "iconPath": "images/列表.png",
+        "text": "个人经历"
+      },
+      {
+        "pagePath": "pages/skill/skill",
+        "selectedIconPath": "images/投骰子.png",
+        "iconPath": "images/投骰子.png",
+        "text": "个人技能"
+      },
+      {
+        "pagePath": "pages/blog/blog",
+        "selectedIconPath": "images/扔鸡蛋.png",
+        "iconPath": "images/扔鸡蛋.png",
+        "text": "关于我的"
+      }
+    ]
+  }
+}
+

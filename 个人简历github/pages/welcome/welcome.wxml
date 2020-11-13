@@ -1,0 +1,28 @@
+<view class="container">
+  <view class="bg">
+    <!-- <image src="cloud://cloud-1j8z4.636c-cloud-1j8z4-1303914026/图片素材/欢迎图1.jpg"></image> -->
+    <text class="common title">个性简历</text>
+    <text class="common subtitle" id="fadeIn">RESUME</text>
+    <view class="common desc animate">
+      <text>有</text>
+      <text>更</text>
+      <text>多</text>
+      <text>刚</text>
+      <text>上</text>
+      <text>路</text>
+      <text>的</text>
+      <text>还</text>
+      <text>在</text>
+      <text>打</text>
+      <text>造</text>
+      <text>梦</text>
+      <text>的</text>
+      <text>雏</text>
+      <text>形</text>
+    </view>
+    <text class="common subdesc" id="fadeIn2">欢迎来到我的简历</text>
+    <!-- <view class="common animate2">
+      <text>个</text><text>性</text><text>简</text><text>历</text>
+    </view> -->
+  </view>
+</view>
